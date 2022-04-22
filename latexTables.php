@@ -9,7 +9,7 @@ error_reporting(0);
 	
     foreach($lista_array as $lista_item) {        
 		$tmp_str = explode("&", $lista_item);
-        $array_latex[] = array($tmp_str[0],$tmp_str[1],$tmp_str[2]);
+        $array_latex[] = array($tmp_str[0],strtr($tmp_str[1], "\\", " "),strtr($tmp_str[2], "\\", " "));
 		
 				
     }
@@ -24,8 +24,8 @@ error_reporting(0);
 			<tr>
 			<?php if($output[0] && $output[1]){?>
 			<td><?php echo $output[0]; ?> </td>
-			<td><?php echo strtr($output[1], "\\", " "); ?> </td>
-			<td><?php echo strtr($output[2], "\\", " "); ?> </td>
+			<td><?php echo $output[1]; ?> </td>
+			<td><?php echo $output[2] ?> </td>
 			<?php }?>
 			<?php }?>						
 			</tr>
