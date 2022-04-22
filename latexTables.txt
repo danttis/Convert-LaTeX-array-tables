@@ -1,0 +1,84 @@
+% latex table generated in R 4.0.5 by xtable 1.8-4 package
+% Mon Mar 28 20:38:10 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|l|l}
+  \hline
+ & characteristic & aaaaaa \\ 
+  \hline
+trainingPercentual & trainingPercentual & 0.75 \\ 
+  propAR\_ARS & propAR\_ARS & 5e-02 \\ 
+  ANN.threshold & ANN.threshold & 1e-03 \\ 
+  ANN.stepmax & ANN.stepmax & 6e+06 \\ 
+  nmodels & nmodels & 5e+03 \\ 
+  nmodels.1 & nmodels.1 & 5e+03 \\ 
+  GSA.max.call & GSA.max.call & 3e+04 \\ 
+  GSA.max.time & GSA.max.time & 5 \\ 
+  GSA.maxit & GSA.maxit & 5e+03 \\ 
+  GSA.temperature & GSA.temperature & 1e+08 \\ 
+  GSA.nb.stop.improvement & GSA.nb.stop.improvement & 20 \\ 
+  cCac.max\_nQuantilesProp & cCac.max\_nQuantilesProp & 5e-02 \\ 
+  cCac.stop\_nBeats & cCac.stop\_nBeats & 5 \\ 
+  isToRun.ANN & isToRun.ANN & FALSE \\ 
+  isToRun.ARIMA & isToRun.ARIMA & TRUE \\ 
+  isToRun.ETS & isToRun.ETS & TRUE \\ 
+  isToRun.SVM & isToRun.SVM & FALSE \\ 
+  isToRun.cSA & isToRun.cSA & TRUE \\ 
+  isToRun.cSM & isToRun.cSM & FALSE \\ 
+  isToRun.cSW.Linear & isToRun.cSW.Linear & FALSE \\ 
+  isToRun.cSW.Laplace & isToRun.cSW.Laplace & FALSE \\ 
+  isToRun.cSW.Normal & isToRun.cSW.Normal & FALSE \\ 
+  isToRun.cCac & isToRun.cCac & FALSE \\ 
+  isToRun.cMV & isToRun.cMV & FALSE \\ 
+  isToRun.cCB & isToRun.cCB & FALSE \\ 
+  isToRun.cDCB & isToRun.cDCB & FALSE \\ 
+  isToRun.cANN & isToRun.cANN & FALSE \\ 
+  isToRun.cSVM & isToRun.cSVM & FALSE \\ 
+   \hline
+\end{tabular}
+\caption{Tuning parameters of the forecasting models for each time series taken into account (aaaaaa).} 
+\label{tab:tuningParameters_tb}
+\end{table}
+% latex table generated in R 4.0.5 by xtable 1.8-4 package
+% Mon Mar 28 20:38:10 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|l}
+  \hline
+order & aaaaaa \\ 
+  \hline
+p & 0 \\ 
+  d & 1 \\ 
+  q & 0 \\ 
+  P & 0 \\ 
+  D & 0 \\ 
+  Q & 0 \\ 
+  s & 0 \\ 
+  modellingTime (sec) & 0.29 \\ 
+   \hline
+\end{tabular}
+\caption{Architecture of the 	exttt{auto.arima}-based near-optimal single ARIMA 
+                                   model for each time series taken into account (aaaaaa).} 
+\label{tab:ARIMA_tb}
+\end{table}
+% latex table generated in R 4.0.5 by xtable 1.8-4 package
+% Mon Mar 28 20:38:10 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{l|l}
+  \hline
+characteristic & aaaaaa \\ 
+  \hline
+architecture & ETS(A,N,N) \\ 
+  alpha & 0 \\ 
+  beta &  \\ 
+  gamma &  \\ 
+  phi &  \\ 
+  l & 0.4667 \\ 
+  modellingTime (sec) & 9e-02 \\ 
+   \hline
+\end{tabular}
+\caption{Architecture of the \texttt{ets} near-optimal single ETS 
+                                    model for each time series taken into account (aaaaaa).} 
+\label{tab:ETS_tb}
+\end{table}
