@@ -25,7 +25,7 @@ error_reporting(0);
 			<?php if($output[0] && $output[1]){?>
 			<td><?php echo $output[0]; ?> </td>
 			<td><?php echo $output[1]; ?> </td>
-			<td><?php echo $output[2] ?> </td>
+			<td><?php echo $output[2]; ?> </td>
 			<?php }?>
 			<?php }?>						
 			</tr>
